@@ -1,0 +1,3 @@
+
+	python manage.py -h [HOST] -p [PUERTO] runserver
+	Docker Compose: docker-compose up --build

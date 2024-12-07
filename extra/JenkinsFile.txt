@@ -5,7 +5,7 @@ pipeline {
         choice(name: 'ENVIRONMENT', choices: ['development', 'testing', 'production'], description: 'Entorno de despliegue')
     }
     environment {
-        REPO_URL = 'https://github.com/robert912/New_backend_python_base.git'
+        REPO_URL = 'https://github.com/robert912/Repechaje_DevOps.git'
         APP_DIR = "${WORKSPACE}\\New_backend_python_base"
     }
     stages {
